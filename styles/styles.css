@@ -121,7 +121,7 @@ html {
   -webkit-animation: fadeIn 0.35s forwards alternate ease-in-out;
           animation: fadeIn 0.35s forwards alternate ease-in-out;
   width: 90%;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   color: #787887;
   font-size: 12px;
 }
