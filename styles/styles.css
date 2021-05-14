@@ -83,10 +83,10 @@ html {
 
 .faqwrapper .text .faqOption {
   border-bottom: 1px solid #e7e7e9;
-  padding: 15px 0px 15px 0px;
 }
 
 .faqwrapper .text .faqOption .option {
+  padding: 20px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,8 +121,8 @@ html {
   -webkit-animation: fadeIn 0.35s forwards alternate ease-in-out;
           animation: fadeIn 0.35s forwards alternate ease-in-out;
   width: 90%;
+  padding-bottom: 10px;
   color: #787887;
-  padding-top: 10px;
   font-size: 12px;
 }
 
