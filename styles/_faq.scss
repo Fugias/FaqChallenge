@@ -101,23 +101,42 @@
 
 @media(min-width: 1024px)
 {
-    // .images {
-    //     .imagesMobile {
-    //         display: none;
-    //     }
-    //     .imagesPc {
-    //         display: block;
-    //         .patternPc {
-    //             position: absolute;
-    //         }
-    //         .illustPc {
-    //             position: absolute;
-    //         }
-    //         .womanPc {
-    //             position: absolute;
-    //         }
-    //     }
-    // }
+    .images {
+        .imagesMobile {
+            display: none;
+        }
+        .imagesPc {
+            height: 550px;
+            display: block;
+            position: relative;
+
+            .overflow {
+                height: 100%;
+                overflow: hidden;
+                position: relative;
+                .patternPc {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-81%,-60%);
+                }
+            }
+
+            .illustPc {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-160%,-45%);
+                z-index: 1;
+            }
+            .womanPc {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-56%,-50%);
+            }
+        }
+    }
 
     .faqwrapper 
     {

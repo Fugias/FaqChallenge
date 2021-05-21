@@ -145,6 +145,41 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .images .imagesMobile {
+    display: none;
+  }
+  .images .imagesPc {
+    height: 550px;
+    display: block;
+    position: relative;
+  }
+  .images .imagesPc .overflow {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .images .imagesPc .overflow .patternPc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-81%, -60%);
+            transform: translate(-81%, -60%);
+  }
+  .images .imagesPc .illustPc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-160%, -45%);
+            transform: translate(-160%, -45%);
+    z-index: 1;
+  }
+  .images .imagesPc .womanPc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-56%, -50%);
+            transform: translate(-56%, -50%);
+  }
   .faqwrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
